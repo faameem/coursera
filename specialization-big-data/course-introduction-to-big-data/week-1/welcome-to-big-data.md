@@ -19,8 +19,18 @@
 ### Faculty ###
 + Natasha Balac
 + Andrea Zonca - *Spark*
-+ Mahidhar Tatineni - *Hadoop *
++ Mahidhar Tatineni - *Hadoop*
 + Amarnath Gupta - *Machine Learning*
 + Paul Rodriquez - *Graph*
 
+## Introduction to Big Data ##
 
+Outpacing time
+Predicting the future to solve tomorrow's business challenges.
+
+Customers
+Products
+Services
+Big Data - diverse and complex
+gather/store/manipulate -> untapped value(analytics/predictive analytics/deeper analytics)
+-- improve ROI, weather prediction etc.
