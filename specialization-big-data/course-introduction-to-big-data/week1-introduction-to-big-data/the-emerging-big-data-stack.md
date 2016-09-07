@@ -1,64 +1,6 @@
-#Welcome To Big Data#
+#The Emerging Big Data Stack#
 
-## Where This Course Fits: An Overview of the Big Data Specialization ##
-
-**Big Data with Splunk**
-
-**SDSC, San Diego Supercomputer Center**
-
-**University of California, San Diego** 
-
-### Course Outline ####
-+ Hadoop
-+ Big data analytics
-+ Machine learning for big data
-+ Graph analytics for big data
-+ Capstone project in cooperation with Splunk
-	- Interview opportunity with Splunk for top performers in the project.
-
-### Faculty ###
-+ Natasha Balac
-+ Andrea Zonca - *Spark*
-+ Mahidhar Tatineni - *Hadoop*
-+ Amarnath Gupta - *Machine Learning*
-+ Paul Rodriquez - *Graph*
-
-## Introduction to Big Data ##
-
-**Predicting the future to solve tomorrow's challenges.**
-
-Big Data is diverse and complex, such as
-
-- Customers
-- Products
-- Services
-- Others
-
-We can gather, store, manipulate big data to gain access to untapped value through analytics and predictive analytics.
-
-+ Improve business ROI
-+ Predict extreme weather conditions
-+ Tackle biodiversity concerns
-+ Gain insight into customer purchase habits
-
-## How much data is there? Can we manage it? ##
-
-Data growth is mostly being driven by unstructured data.
-
-+ YB*1024=10**27=Brontobyte (will be digital universe tomorrow because of IoT data)
-+ ZB*1024=10**24=Yottabyte (digital universe today - government data the NSA or FBI have on people)
-+ EB*1024=10**21=Zettabyte
-+ PB*1024=10**18=Exabyte
-+ TB*1024=10**15=Petabyte
-+ GB*1024=10**12=Terabyte
-+ MB*1024=10**9=Gigabyte
-+ KB*1024=10**6=Megabyte
-+ B*1024=10**3=Kilobyte
-+ Byte
-
-## The Emerging Big Data Stack ##
-
-**Big Data Functional Requirements**
+###Big Data Functional Requirements###
 
 + Collection
 + Integration
@@ -66,7 +8,7 @@ Data growth is mostly being driven by unstructured data.
 + Actions / Decisions
 + *Example: Recommender systems of Amazon, Netflix.*
 
-**Big Data Stack**
+###Big Data Stack###
 
 + Fast data layer 
   - Speed: batch/real-time
@@ -80,20 +22,20 @@ Data growth is mostly being driven by unstructured data.
   - Fraud detection
   - Travel forecasting
 
-**Hadoop**  
-
+###Hadoop###
+  
 + Need: Real-time, scalable, high perfomance computing and analytics of large complex data sets.
 + Hadoop brings storage and computational capacity together.
 + The Apache Hadoop project develops open-source software for reliable, scalable, distributed computing. It enables distributed processing of large data sets across clusters of commodity servers.
 
-**Hadoop Features**
+###Hadoop Features###
 
 + Low-cost (commodity servers)
 + Scalable (additional nodes can be added easily)
 + Fault tolerant (one node goes down, backup nodes are used until fixed)
 + Flexible (schema free; Can work with structured/unstructured data)
 
-**Hadoop Implementations**
+###Hadoop Implementations###
 
 + Open Source 
 	- Apache Hadoop
@@ -105,7 +47,7 @@ Data growth is mostly being driven by unstructured data.
 	- Intel
 	- Pivotal
 
-## Basic Hadoop Components ##
+##Basic Hadoop Components##
 + Data
 	- Hadoop Distributed File System (HDFS)
 		+ Distributed file system.
@@ -120,7 +62,7 @@ Data growth is mostly being driven by unstructured data.
 			- Processes data from slave nodes
 			- Perform reduce tasks to form the final output
 
-**Hadoop 1.0**
+###Hadoop 1.0###
 
 + Redundant reliable storage layer
 	- HDFS
@@ -131,7 +73,7 @@ Data growth is mostly being driven by unstructured data.
 	- Hive (sql)
 	- Others (cascading)
 
-**Hadoop 2.0**
+###Hadoop 2.0###
 
 + Redundant reliable storage layer
 	- HDFS2
@@ -148,7 +90,7 @@ Data growth is mostly being driven by unstructured data.
 	- RT Stream, Graph (Storm, Giraph)
 	- Services (Hbase)
 
-**Apache Hadoop Ecosystem**
+###Apache Hadoop Ecosystem###
 
 + HDFS
 + YARN Map Reduce v2 (distributed processing framework)
@@ -163,25 +105,6 @@ Data growth is mostly being driven by unstructured data.
 + Hbase (columnar storage)
 + Ambari (Provisioning, managing, and monitoring Hadoop clusters)
 
-**Additional Resource**
+##Additional Resource##
 
 + [National Institute of Standards and Technology Big Data Working group](http://bigdatawg.nist.gov/home.php)
-
-##The Gartner Hype Cycle for Emerging Technologies##
-
-+ comes out every year
-+ Big data
-+ Internet of things
-	+ The world is the index
-	+ Take the world on line
-	+ Take control of the world
-	+ Let the things talk to each other
-	+ Let things become intelligent
-+ Data science
-
-##Big Data Projects##
-
-+ Basic Rules
-	+ What is my ROI (understand the value)?
-	+ Solution should be enterprise level that include multiple departments, building bridges rather than building walls.
-	+ It should be about business change, insight and value.
