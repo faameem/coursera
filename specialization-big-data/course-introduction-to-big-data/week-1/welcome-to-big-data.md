@@ -45,13 +45,15 @@ We can gather, store, manipulate big data to gain access to untapped value throu
 
 Data growth is mostly being driven by unstructured data.
 
-+ EB*1024=Zettabyte
-+ PB*1024=Exabyte
-+ TB*1024=Petabyte
-+ GB*1024=Terabyte
-+ MB*1024=Gigabyte
-+ KB*1024=Megabyte
-+ B*1024=Kilobyte
++ YB*1024=10**27=Brontobyte (will be digital universe tomorrow because of IoT data)
++ ZB*1024=10**24=Yottabyte (digital universe today - government data the NSA or FBI have on people)
++ EB*1024=10**21=Zettabyte
++ PB*1024=10**18=Exabyte
++ TB*1024=10**15=Petabyte
++ GB*1024=10**12=Terabyte
++ MB*1024=10**9=Gigabyte
++ KB*1024=10**6=Megabyte
++ B*1024=10**3=Kilobyte
 + Byte
 
 ## The Emerging Big Data Stack ##
@@ -112,6 +114,11 @@ Data growth is mostly being driven by unstructured data.
 	- Hadoop MapReduce
 		+ Programming model for large scale data processing.
 		+ Minimize data movement by bringing computation to where the data is.
+		+ Map Step 
+			- Master process distributes sub-tasks (map tasks) to slave nodes
+		+ Reduce Step
+			- Processes data from slave nodes
+			- Perform reduce tasks to form the final output
 
 **Hadoop 1.0**
 
@@ -156,3 +163,25 @@ Data growth is mostly being driven by unstructured data.
 + Hbase (columnar storage)
 + Ambari (Provisioning, managing, and monitoring Hadoop clusters)
 
+**Additional Resource**
+
++ [National Institute of Standards and Technology Big Data Working group](http://bigdatawg.nist.gov/home.php)
+
+##The Gartner Hype Cycle for Emerging Technologies##
+
++ comes out every year
++ Big data
++ Internet of things
+	+ The world is the index
+	+ Take the world on line
+	+ Take control of the world
+	+ Let the things talk to each other
+	+ Let things become intelligent
++ Data science
+
+##Big Data Projects##
+
++ Basic Rules
+	+ What is my ROI (understand the value)?
+	+ Solution should be enterprise level that include multiple departments, building bridges rather than building walls.
+	+ It should be about business change, insight and value.
